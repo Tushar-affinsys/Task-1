@@ -33,9 +33,9 @@ def topics(request):
         qid = int(qid)
         data = Answer.objects.filter(question_id=qid).values()
         # print(data[0].get('answer'))
-        # send_feedback_email_task.delay(
-        #     data[0].get('answer')
-        # )
+        send_feedback_email_task.delay(
+            data[0].get('answer')
+        )
         return Response({"Answer": data[0].get('answer')})
 
     elif sid and tid:
