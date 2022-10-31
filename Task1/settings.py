@@ -137,6 +137,6 @@ REST_FRAMEWORK = {
 # EMAIL_HOST = 'smtp.gmail.com'
 # EMAIL_USE_TLS = True
 # EMAIL_HOST_USER = 'tushar.singla2019@vitstudent.ac.in'
-# EMAIL_HOST_PASSWORD = 'dolmlkrnyeuyvjei'
+# EMAIL_HOST_PASSWORD = ''
 # EMAIL_PORT = 587
 # DEFAULT_FROM_EMAIL = 'Testing <tushar.singla2019@vitstudent.ac.in>'
